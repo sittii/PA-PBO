@@ -26,81 +26,129 @@ Sementara itu, Petugas Perpustakaan memiliki peran yang lebih luas dalam manajem
 ## Penjelasan Coding
 ![image](https://github.com/sittii/PA-PBO/assets/123925640/2c996955-9174-44f6-8754-d0f03fd259af)
 
-Package papbodbd digunakan untuk menyimpan file koneksi database my sql, dan file utama dijalankan program
-
+Package `projectpapbodb` digunakan untuk menyimpan file koneksi database mysql, dan file utama program
 
 ![image](https://github.com/sittii/PA-PBO/assets/123925640/30386da8-f49a-4779-8e40-a3339969a0e2)
 
-Coding ini adalah bagian utama dari program Java yang mengembangkan aplikasi dengan antarmuka pengguna (GUI). Dalam program ini, kelas Formsplash digunakan untuk menampilkan layar pembuka splash screen, dan kelas FormLogin digunakan untuk tampilan login. Ketika program dijalankan, splash screen ditampilkan terlebih dahulu dengan efek loading yang disimulasikan, lalu setelah loading mencapai 100%, splash screen ditutup dan FormLogin ditampilkan untuk masuk ke menu utama. Ini memberikan pengguna pengalaman awal yang menarik sebelum mengakses menu utama.
+Bagian ini merupakan bagian utama dari program Java yang mengembangkan aplikasi dengan antarmuka pengguna (GUI). Dalam program ini, kelas Formsplash digunakan untuk menampilkan layar pembuka splash screen, dan kelas FormLogin digunakan untuk tampilan login. Ketika program dijalankan, splash screen ditampilkan terlebih dahulu dengan efek loading yang disimulasikan, lalu setelah loading mencapai 100%, splash screen ditutup dan FormLogin ditampilkan untuk masuk ke menu utama. Ini memberikan pengguna pengalaman awal yang menarik sebelum mengakses menu utama.
 
 ![image](https://github.com/sittii/PA-PBO/assets/123925640/2860cb5c-a0ab-4074-9d0c-4a207c70b021)
 
 ![image](https://github.com/sittii/PA-PBO/assets/123925640/acff83c0-0101-48d6-aaaf-565b71bc111b)
 
-Kode tersebut merupakan bagian dari sebuah aplikasi Java yang digunakan untuk mengelola koneksi dengan database MySQL. Kelas `ConnectionDatabase` ini memiliki metode `openConnection` yang digunakan untuk membuka koneksi ke database dengan menggunakan parameter seperti host, nama database, username, dan password yang telah ditentukan. Kemudian, terdapat metode `closeConnection` yang digunakan untuk menutup semua elemen terkait koneksi, seperti `resultSet`, `statement`, `preparedStatement`, dan `connection`. Jika terjadi kesalahan dalam koneksi database, kelas ini juga memiliki metode `displayErrors` untuk menampilkan pesan kesalahan. 
+Kode tersebut merupakan bagian dari sebuah aplikasi Java yang digunakan untuk mengelola koneksi dengan database MySQL. Kelas ConnectionDatabase ini memiliki metode openConnection yang digunakan untuk membuka koneksi ke database dengan menggunakan parameter seperti host, nama database, username, dan password yang telah ditentukan. Kemudian, terdapat metode closeConnection yang digunakan untuk menutup semua elemen terkait koneksi, seperti resultSet, statement, preparedStatement, dan connection. Jika terjadi kesalahan dalam koneksi database, kelas ini juga memiliki metode displayErrors untuk menampilkan pesan kesalahan. 
 
-![image](https://github.com/sittii/PA-PBO/assets/123925640/ee057771-f00c-448c-a106-d0d89f2fd569)
+![image](https://github.com/sittii/PA-PBO/assets/123925640/72ae4561-214c-4762-aaf2-2c00e3a5c3cb)
 
-![Screenshot 2023-11-03 070509](https://github.com/sittii/PA-PBO/assets/127497591/5ffdb73c-bffb-4aa2-a2ed-52c0a7a9755f)
-Pada kode ini merupakan implementasi kelas dalam Bahasa java untuk mengakses ke database MySQL dengan menggunakan JDBC.
-ConnectionDatabase, memiliki atribut yang digunakan untuk menyimpan informasi koneksi dan objek-objek untuk menjalankan pernyataan SQL. Metode openConnection digunakan untuk membuka koneksi ke database.
-closeConnection digunakan untuk menutup koneksi dan sumber daya terkait. Terdapat pula metode displayErrors untuk menampilkan pesan kesalahan dalam eksekusi pernyataan SQL.
-Dengan kode diatas ini bisa membuat ConnectionDatabese dengan membuka koneksi ke database.
+Paket `projectpapbodb.objek` digunakan untuk mengelompokkan semua kelas yang berkaitan dengan objek atau entitas dalam proyek, termasuk atribut dan metode yang terkait dengan objek tersebut.
 
-![image](https://github.com/sittii/PA-PBO/assets/127497591/1319ee9e-122d-41a1-8f04-105eb20bd1c6)
-Pada kode ini merupakan bagian dari java yang mengatur tampilan awal aplikasi dengan tampilan splash screen sebelum memunculkan layar masuk (login).Ttampilan Formsplash ditampilkan dengan persentase kemajuan dan status bar yang berubah secara bertahap dari 0 hingga 100% untuk memberikan kesan loading.
+![image](https://github.com/sittii/PA-PBO/assets/123925640/0273f7a3-638f-457f-bff6-cb92bd9d0994)
 
-![Screenshot 2023-11-03 072341](https://github.com/sittii/PA-PBO/assets/127497591/e72093db-3d28-4b95-9268-64a2b0dd153a)
-Pada class anggota ini merupakan turunan subclass dari class user, class anggota ini memiliki atribut tambahan yaitu alamat email Selain itu, terdapat metode tambah yang mengoverride metode yang sama dalam kelas User untuk menambahkan data anggota ke tabel Anggota dalam database. Dalam metode tambah, koneksi ke database dibuka, dan sebuah pernyataan SQL INSERT digunakan untuk memasukkan data anggota ke dalam tabel.
+![image](https://github.com/sittii/PA-PBO/assets/123925640/9c8b2b4c-3db1-4267-89fd-187a1a58039a)
 
-![Screenshot 2023-11-03 073247](https://github.com/sittii/PA-PBO/assets/127497591/7ff16dbc-f443-4057-9939-b87c82ec8f59)
-Pada class buku, kode ini merupakan implementasi class buku ke dalam proyek java yang digunakan untuk mengelola data buku dan berinteraksi dengan database. Kelas Buku memiliki atribut seperti kodebuku, judulbuku, penulis, stok, dan kodeuser yang digunakan untuk menyimpan informasi buku. Terdapat juga metode-metode seperti tambahBuku, updateBuku, dan deleteBuku yang memungkinkan untuk menambahkan, memperbarui, atau menghapus data buku dalam tabel database. generateNextBukuCode digunakan untuk menghasilkan CRUD (Create, Read, Update, Delete) yang terhubung dengan database.
+![image](https://github.com/sittii/PA-PBO/assets/123925640/5c337353-cb49-461d-a53b-5aec9f8e2481)
 
-![Screenshot 2023-11-03 074013](https://github.com/sittii/PA-PBO/assets/127497591/fe0c7e27-ea39-4c51-8b67-e6ebd62aa9bb)
-Pada class denda, kode ini merupakan implementasi class denda yang digunakan untuk mengelola data denda terkait pengembalian buku dalam perpustakaan. Kelas ini memiliki beberapa atribut seperti kodedenda, kodepinjam, kodebuku, kodeuser, dan kodeuseranggota yang digunakan untuk menyimpan informasi denda dan transaksi peminjaman. Metode simpanDenda digunakan untuk mencatat dan mengonfirmasi pembayaran denda.
+![image](https://github.com/sittii/PA-PBO/assets/123925640/ec633a03-c463-4bd7-b1ad-4d291bfea811)
 
-![Screenshot 2023-11-03 074130](https://github.com/sittii/PA-PBO/assets/127497591/2af81635-4aa9-4bf5-91ad-8366a7f6dd94)
-Pada class pemimnjaman buku ini implementasi peminjaman buku ke dalam proyek java yang digunakan untuk penyimpanan data peminjaman, pengurangan stok buku, dan pembaruan status peminjaman. Class ini memiliki hubungan seperti kodepinjam, tglpinjam, statuspinjam, tglkembali, kodeuser, dan kodebuku. Terdapat pula beberapa metode, seperti generateNextPinjamCode untuk menghasilkan kode peminjaman baru, simpan Peminjaman untuk menyimpan data peminjaman ke database, kurangi Stok Buku untuk mengurangi stok buku setelah peminjaman, dan simpan Pengembalian untuk mengupdate status peminjaman buku.
+![image](https://github.com/sittii/PA-PBO/assets/123925640/7ff78bf3-18eb-440a-b853-07d27e328787)
 
+![image](https://github.com/sittii/PA-PBO/assets/123925640/98ea39b8-5c59-4d1c-8d65-9195f015249c)
 
-![Screenshot 2023-11-03 151639](https://github.com/sittii/PA-PBO/assets/127497591/0084a52f-2821-4dd4-b167-cbddd7afa553)
-Pada class pengembalian buku ini implementasi pengembalian buku digunakan untuk mengelola pengembalian buku. Class ini merupakan turunan dari class "ConnectionDatabase" dan memiliki properti kodeuser, kodepinjam, dan kodebuku untuk menyimpan informasi terkait pengembalian buku. 
+Pada class user ini implementasi digunakan dalam sebuah manajemen pengguna (user) di sistem perpustakaan. Class ini mengelola informasi pengguna seperti nama, username, password, dan peran (role). Terdapat metode "generateNextUserCode" yang digunakan untuk menghasilkan kode pengguna baru, metode "tambah" untuk menyimpan data pengguna ke database, dan metode "login" untuk melakukan autentikasi pengguna berdasarkan username dan password. 
 
-![Screenshot 2023-11-03 152248](https://github.com/sittii/PA-PBO/assets/127497591/0e610c94-4f36-4131-a84d-5a6ad5fda42e)
-Pada class user ini implementasi digunakan dalam sebuah proyek manajemen pengguna (user) di sistem perpustakaan. Class ini mengelola informasi pengguna seperti nama, username, password, dan peran (role). Terdapat metode "generateNextUserCode" yang digunakan untuk menghasilkan kode pengguna baru, metode "tambah" untuk menyimpan data pengguna ke database, dan metode "login" untuk melakukan autentikasi pengguna berdasarkan username dan password. 
+![image](https://github.com/sittii/PA-PBO/assets/123925640/4909ec56-eb79-4616-a1aa-246c5e833e8d)
 
+![image](https://github.com/sittii/PA-PBO/assets/123925640/7c631790-f3ef-4dc4-984a-d74ecc911805)
 
-![Screenshot 2023-11-03 152525](https://github.com/sittii/PA-PBO/assets/127497591/70e889c7-38fa-49fa-ac9f-3fc7f07bc455)
-pada tampilan gui Aplikasi perpustakaan ini  bertujuan untuk mengakses sumber daya perpustakaan, melakukan peminjaman, dan mengelola informasi pengguna. memiliki berbagai form dan fitur yang memudahkan pengguna dalam mengelola perpustakaan. Form "Buku" memungkinkan pengguna untuk mencari, melihat, dan meminjam buku dari koleksi perpustakaan. "Denda" memungkinkan pengguna untuk melihat dan membayar denda jika ada keterlambatan pengembalian buku. "History" menyediakan riwayat peminjaman dan pengembalian pengguna. "Login" adalah form autentikasi untuk masuk ke aplikasi. "Splash" tampilan sambutan saat aplikasi pertama kali dibuka. Semua form ini bekerja bersama untuk menyediakan pengalaman yang komprehensif dalam mengelola perpustakaan.
+Pada class anggota ini merupakan turunan subclass dari class user, class anggota ini memiliki atribut tambahan yaitu alamat email. Selain itu, terdapat metode tambah yang mengoverride metode yang sama dalam kelas User untuk menambahkan data anggota ke tabel Anggota dalam database. Dalam metode tambah, koneksi ke database dibuka, dan sebuah pernyataan SQL INSERT digunakan untuk memasukkan data anggota ke dalam tabel.
 
+![image](https://github.com/sittii/PA-PBO/assets/123925640/9d70dc18-49ed-463a-8d83-572b305f485b)
 
+![image](https://github.com/sittii/PA-PBO/assets/123925640/e7541a29-20ac-49d8-8f25-f7cb5acb4757)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/632a343e-ba4b-4099-a377-fab843ba053b)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/6d6850b3-6728-4c3a-9570-8b8a0a62c462)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/599fa6a6-5e85-41d6-b196-cc0ae6965cd9)
+
+Pada kelas Buku, implementasi ini digunakan dalam proyek Java untuk mengelola data buku dan berinteraksi dengan database. Kelas Buku memiliki atribut seperti kodeBuku, judulBuku, penulis, stok, dan kodeUser yang digunakan untuk menyimpan informasi terkait buku. Selain itu, kelas ini memiliki metode-metode seperti tambahBuku, updateBuku, dan deleteBuku, yang memungkinkan penambahan, pembaruan, atau penghapusan data buku dalam tabel database. Metode generateNextBukuCode digunakan untuk menghasilkan kode buku secara otomatis dan berurut, yang selanjutnya digunakan dalam operasi CRUD (Create, Read, Update, Delete) yang terhubung dengan database.
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/339304ba-0c8a-400b-b2cb-d5d99d2f74b7)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/0bfb1777-57d9-4802-add5-6209f76cd65b)
+
+Pada class denda, kode ini merupakan implementasi class denda yang digunakan untuk mengelola data denda terkait pengembalian buku dalam perpustakaan. Kelas ini memiliki beberapa atribut seperti kodedenda, kodepinjam, kodebuku, kodeuser, dan kodeuseranggota yang digunakan untuk menyimpan informasi denda yang terkait dengan suatu transaksi peminjaman buku tertentu. Metode simpanDenda digunakan untuk mencatat dan mengonfirmasi pembayaran denda.
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/c200388a-ed15-412c-895d-424fe8bd105f)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/0720162a-42c6-4401-9048-6e1dedffcf49)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/87bd2c05-f950-435f-8c9a-1fa22597f4be)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/dd9a06b1-a536-4853-bac7-62a0cb00bcd9)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/c4cb4c47-be74-4d28-ac4b-8ead2b6608af)
+
+Pada class peminjaman buku ini implementasi peminjaman buku ke dalam proyek java yang digunakan untuk penyimpanan data peminjaman, pengurangan stok buku, dan pembaruan status peminjaman. Class ini memiliki hubungan seperti kodepinjam, tglpinjam, statuspinjam, tglkembali, kodeuser, dan kodebuku. Terdapat pula beberapa metode, seperti generateNextPinjamCode untuk menghasilkan kode peminjaman baru, simpan Peminjaman untuk menyimpan data peminjaman ke database, kurangi Stok Buku untuk mengurangi stok buku setelah peminjaman, dan simpan Pengembalian untuk mengupdate status peminjaman buku.
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/83e6d834-b8de-46e2-b24f-3602dc851e15)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/258cec44-b86d-45a7-806d-b9a3fa7f819b)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/91e75ef3-e56c-4d7e-b9ca-ab9e0d4f174f)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/6fbad41d-9788-420f-8a10-f740109eccdb)
+
+Pada class pengembalian buku ini implementasi pengembalian buku digunakan untuk mengelola pengembalian buku. Class ini memiliki properti kodeuser, kodepinjam, dan kodebuku untuk menyimpan informasi terkait pengembalian buku. 
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/32af3795-0b01-4741-b322-150fcc039b0c)
+
+Paket `projectpapbodb.view`  digunakan untuk mengorganisasi dan menyimpan semua tampilan antarmuka pengguna (GUI) dalam proyek. Tampilan GUI ini berperan sebagai jembatan atau antarmuka antara kelas-kelas Java dalam proyek dengan database. Paket ini mencakup semua elemen visual, seperti jendela, tombol, formulir, dan komponen tampilan lainnya yang digunakan untuk berinteraksi dengan pengguna.
+
+Tampilan GUI Aplikasi perpustakaan ini dirancang untuk memberikan akses yang mudah dan nyaman kepada pengguna untuk mengakses sumber daya perpustakaan, melakukan peminjaman buku, dan mengelola informasi pengguna. Aplikasi ini terdiri dari berbagai form dan fitur yang memberikan beragam fungsionalitas yang memudahkan pengguna dalam mengelola perpustakaan.
+"FormBuku": Form ini memungkinkan pengguna untuk melakukan pencarian, melihat detail buku, dan melakukan peminjaman buku dari koleksi perpustakaan.
+"FormPeminjaman": Form ini memungkinkan pengguna untuk mengajukan permohonan peminjaman buku dan mencatat detail peminjaman.
+"FormPengembalian": Form ini memungkinkan pengguna untuk dapat melakukan pengembalian buku
+"FormHistory": Form ini menyediakan riwayat peminjaman dan pengembalian pengguna, memungkinkan mereka untuk melacak aktivitas peminjaman sebelumnya.
+"FormLogin": Form ini berfungsi sebagai autentikasi, memungkinkan pengguna untuk masuk ke aplikasi dengan akun mereka.
+"FormSplash": Tampilan sambutan saat aplikasi pertama kali dibuka, memberikan pengalaman pengguna yang menarik saat memulai aplikasi
 
 ## Penjelasan Output
 ![Screenshot 2023-11-03 140751](https://github.com/sittii/PA-PBO/assets/127497591/aac93f52-a959-4eac-995c-ca2dacf27942)
+
 Pada tampilan awal Perpustakaan akan menampilkan Formsplash secara bertahap dari 0 hingga 100% untuk memberikan kesan loading.
 
 ![Screenshot 2023-11-03 140804](https://github.com/sittii/PA-PBO/assets/127497591/a2edac70-f114-4588-bdfd-98639cb46f20)
+
 Pada tampilan ini adalah tampilan login dari perpustakaan, petugas dan anggota akan dapat mengakses.
 
 ![Screenshot 2023-11-03 081636](https://github.com/sittii/PA-PBO/assets/127497591/6a1bfbb3-e302-4abc-8c46-8feaabe98d0e)
+
 Apabila anggota belum memiliki akun, maka anggota akan diminta untuk membuat akun (registrasi) terlebih dahulu.
 
 ![Screenshot 2023-11-03 081649](https://github.com/sittii/PA-PBO/assets/127497591/402c2721-6610-456c-bf01-6c0cc00188a3)
+
 Jika anggota telah membuat akun maka akan menampilkan Berhasil membuat akun
 
 ![Screenshot 2023-11-03 081740](https://github.com/sittii/PA-PBO/assets/127497591/00e54801-59b4-4572-bf76-d9ac73bfbb67)
+
 Untuk masuk ke perpustakaan, anggota harus memasukan ussername dan password yang telah di buat tadi.
 
 ![Screenshot 2023-11-03 081753](https://github.com/sittii/PA-PBO/assets/127497591/46eba78a-4c57-4f4e-8d0a-2a42ab056223)
+
 Pada tampilan ini anggota sudah masuk ke sistem perpustakaan dan bisa meminjam buku yang diinginkan.
 
 ![Screenshot 2023-11-03 081828](https://github.com/sittii/PA-PBO/assets/127497591/7d463d02-db0e-4f07-b2dd-2823920b4881)
+
 ini adalah tampilan dari from peminjaman buku dengan menampilkan informasi buku-buku yang tersedia, anggota langsung bisa memilih buku mana yang ingin dipinjam.
 
 ![Screenshot 2023-11-03 081836](https://github.com/sittii/PA-PBO/assets/127497591/b8c8f10b-7c6d-48e4-a36d-43ea504a3d33)
+
 Jika anggota telah melakukan peminjaman buku maka akan menampilkan peminjaman berhasil.
 
 ![Screenshot 2023-11-03 081852](https://github.com/sittii/PA-PBO/assets/127497591/46b7fe30-e301-4e45-a416-e157785ae13e)
+
 Pada tampilan ini menunjukan history peminjaman yang telah dilakukan anggota, dalam proses peminjaman buku ini setiap peminjaman diberikan waktu selama 7 hari sebelum tanggal pengembalian ditetapkan. jika buku dikembalikan melewati batas waktu 7 hari, maka anggota tersebut akan dikenakan denda sesuai dengan kebijakan perpustakaan.
 
 
@@ -109,6 +157,7 @@ Pada tampilan ini menunjukan history peminjaman yang telah dilakukan anggota, da
 Pada tampilan ini menunjukan from pengembalian buku, jika anggota yang ingin mengembalikan buku yang telah dipinjem maka sistem akan langsung memproses pengembalian buku.
 
 ![Screenshot 2023-11-03 081947](https://github.com/sittii/PA-PBO/assets/127497591/2d4ccc8b-3d36-48e5-9fe7-32f5b47e6e93)
+
 Jika menunjukan tampilan ini menandakan bahwa proses pengembalian buku telah berhasil.
 
 
