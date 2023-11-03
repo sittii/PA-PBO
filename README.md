@@ -90,7 +90,9 @@ Jika anggota telah melakukan peminjaman buku maka akan menampilkan peminjaman be
 ![Screenshot 2023-11-03 081852](https://github.com/sittii/PA-PBO/assets/127497591/46b7fe30-e301-4e45-a416-e157785ae13e)
 Pada tampilan ini menunjukan history peminjaman yang telah dilakukan anggota, dalam proses peminjaman buku ini setiap peminjaman diberikan waktu selama 7 hari sebelum tanggal pengembalian ditetapkan. jika buku dikembalikan melewati batas waktu 7 hari, maka anggota tersebut akan dikenakan denda sesuai dengan kebijakan perpustakaan.
 
-![Screenshot 2023-11-03 081909](https://github.com/sittii/PA-PBO/assets/127497591/a6f40b61-1448-497a-9f08-341c61aa3a02Pada 
+
+![Screenshot 2023-11-03 081909](https://github.com/sittii/PA-PBO/assets/127497591/4fd6775e-afba-4483-88dc-5029f3389fd1)
+
 Pada tampilan ini menunjukan from pengembalian buku, jika anggota yang ingin mengembalikan buku yang telah dipinjem maka sistem akan langsung memproses pengembalian buku.
 
 ![Screenshot 2023-11-03 081947](https://github.com/sittii/PA-PBO/assets/127497591/2d4ccc8b-3d36-48e5-9fe7-32f5b47e6e93)
