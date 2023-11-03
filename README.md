@@ -24,15 +24,20 @@ Sementara itu, Petugas Perpustakaan memiliki peran yang lebih luas dalam manajem
 ![hffffffffffffffffffff](https://github.com/sittii/PA-PBO/assets/123925640/f332d345-3318-41df-9eb8-fef43e921f05)
 
 ## Penjelasan Coding
+![image](https://github.com/sittii/PA-PBO/assets/123925640/2c996955-9174-44f6-8754-d0f03fd259af)
+
+Package papbodbd digunakan untuk menyimpan file koneksi database my sql, dan file utama dijalankan program
+
 
 ![image](https://github.com/sittii/PA-PBO/assets/123925640/30386da8-f49a-4779-8e40-a3339969a0e2)
 
-Coding ini adalah bagian utama dari program Java yang mengembangkan aplikasi dengan antarmuka pengguna (GUI). Dalam program ini, kelas Formsplash digunakan untuk menampilkan layar pembuka splash screen, dan kelas FormLogin digunakan untuk tampilan login. Ketika program dijalankan, splash screen ditampilkan terlebih dahulu dengan efek loading yang disimulasikan, lalu setelah loading mencapai 100%, splash screen ditutup dan FormLogin ditampilkan untuk masuk ke aplikasi utama. Ini memberikan pengguna pengalaman awal yang menarik sebelum mengakses aplikasi utama.
+Coding ini adalah bagian utama dari program Java yang mengembangkan aplikasi dengan antarmuka pengguna (GUI). Dalam program ini, kelas Formsplash digunakan untuk menampilkan layar pembuka splash screen, dan kelas FormLogin digunakan untuk tampilan login. Ketika program dijalankan, splash screen ditampilkan terlebih dahulu dengan efek loading yang disimulasikan, lalu setelah loading mencapai 100%, splash screen ditutup dan FormLogin ditampilkan untuk masuk ke menu utama. Ini memberikan pengguna pengalaman awal yang menarik sebelum mengakses menu utama.
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/2860cb5c-a0ab-4074-9d0c-4a207c70b021)
 
 ![image](https://github.com/sittii/PA-PBO/assets/123925640/acff83c0-0101-48d6-aaaf-565b71bc111b)
 
-Kode tersebut merupakan bagian dari sebuah aplikasi Java yang digunakan untuk mengelola koneksi dengan database MySQL. Kelas `ConnectionDatabase` ini memiliki metode `openConnection` yang digunakan untuk membuka koneksi ke database dengan menggunakan parameter seperti host, nama database, username, dan password yang telah ditentukan. Kemudian, terdapat metode `closeConnection` yang digunakan untuk menutup semua elemen terkait koneksi, seperti `resultSet`, `statement`, `preparedStatement`, dan `connection`. Jika terjadi kesalahan dalam koneksi database, kelas ini juga memiliki metode `displayErrors` untuk menampilkan pesan kesalahan. Pada metode `main`, sebuah objek dari kelas `ConnectionDatabase` dibuat, koneksi database dibuka, dan kemudian koneksi ditutup. Kode ini akan sangat berguna untuk mengatur koneksi ke database MySQL dalam pengembangan aplikasi Java.
-
+Kode tersebut merupakan bagian dari sebuah aplikasi Java yang digunakan untuk mengelola koneksi dengan database MySQL. Kelas `ConnectionDatabase` ini memiliki metode `openConnection` yang digunakan untuk membuka koneksi ke database dengan menggunakan parameter seperti host, nama database, username, dan password yang telah ditentukan. Kemudian, terdapat metode `closeConnection` yang digunakan untuk menutup semua elemen terkait koneksi, seperti `resultSet`, `statement`, `preparedStatement`, dan `connection`. Jika terjadi kesalahan dalam koneksi database, kelas ini juga memiliki metode `displayErrors` untuk menampilkan pesan kesalahan. 
 
 ![image](https://github.com/sittii/PA-PBO/assets/123925640/ee057771-f00c-448c-a106-d0d89f2fd569)
 
