@@ -71,7 +71,7 @@ Pada class user ini implementasi digunakan dalam sebuah proyek manajemen penggun
 
 
 ![Screenshot 2023-11-03 152525](https://github.com/sittii/PA-PBO/assets/127497591/70e889c7-38fa-49fa-ac9f-3fc7f07bc455)
-pada tampilan gui Aplikasi perpustakaan ini memiliki berbagai form dan fitur yang memudahkan pengguna dalam mengelola perpustakaan. Form "Buku" memungkinkan pengguna untuk mencari, melihat, dan meminjam buku dari koleksi perpustakaan. "Denda" memungkinkan pengguna untuk melihat dan membayar denda jika ada keterlambatan pengembalian buku. "History" menyediakan riwayat peminjaman dan pengembalian pengguna. "Login" adalah form autentikasi untuk masuk ke aplikasi. "Splash" tampilan sambutan saat aplikasi pertama kali dibuka. Semua form ini bekerja bersama untuk menyediakan pengalaman yang komprehensif dalam mengelola perpustakaan.
+pada tampilan gui Aplikasi perpustakaan ini  bertujuan untuk mengakses sumber daya perpustakaan, melakukan peminjaman, dan mengelola informasi pengguna. memiliki berbagai form dan fitur yang memudahkan pengguna dalam mengelola perpustakaan. Form "Buku" memungkinkan pengguna untuk mencari, melihat, dan meminjam buku dari koleksi perpustakaan. "Denda" memungkinkan pengguna untuk melihat dan membayar denda jika ada keterlambatan pengembalian buku. "History" menyediakan riwayat peminjaman dan pengembalian pengguna. "Login" adalah form autentikasi untuk masuk ke aplikasi. "Splash" tampilan sambutan saat aplikasi pertama kali dibuka. Semua form ini bekerja bersama untuk menyediakan pengalaman yang komprehensif dalam mengelola perpustakaan.
 
 
 
