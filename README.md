@@ -1,9 +1,12 @@
 # Sistem Perpustakaan
 
-**Kelompok 19**  
-**Nama:** Siti Nikmatul Ula (2209116059)
-**Nama:** Kalsum Burhani Putri (2209116095)
+## Kelompok 19
+- **Nama:** Siti Nikmatul Ula
+  - **2209116059** 
 
+- **Nama:** Kalsum Burhani Putri
+  - **2209116095**
+    
 ## Deskripsi Project
 Sistem Perpustakaan ini adalah sebuah proyek aplikasi Java yang bertujuan untuk menyederhanakan manajemen perpustakaan dengan dua peran utama, yaitu Anggota dan Petugas Perpustakaan. Aplikasi ini memungkinkan Anggota untuk dengan mudah menjelajahi katalog buku perpustakaan, melakukan peminjaman, dan pengembalian buku dengan berbagai fitur yang telah disiapkan.
 
