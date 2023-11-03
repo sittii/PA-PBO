@@ -123,9 +123,33 @@ Pada tampilan awal Perpustakaan akan menampilkan Formsplash secara bertahap dari
 
 Pada tampilan ini adalah tampilan login dari perpustakaan, petugas dan anggota akan dapat mengakses.
 
+![image](https://github.com/sittii/PA-PBO/assets/123925640/e8449c11-7651-4395-8746-39b38440d79f)
+
+Apabila petugas ingin mengakses aplikasi, maka silahkan untuk memasukkan username dan password yang telah ditentukan
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/81ff806f-536d-47a5-993f-3fca38cfa71e)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/b512a750-7b13-4554-8e14-9cc7aa258152)
+
+Tampilan saat petugas berhasil masuk kedalam aplikasi
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/8672c75f-f357-4ba8-a12c-36eab89a94e1)
+
+Petugas diberikan akses untuk dapat mengelola data buku, petugas dapat melakukan menambah, mengubah, menghapus data buku yang ada diperpus
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/02aef78e-38ab-45c9-9e09-69d4e96ff6bc)
+
+Tampilan ketika petugas berhasil menambah data buku
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/f9ff8d8a-7341-46b4-84ab-48eb4d408e0d)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/583cd8fd-ccdc-48a8-93b5-9eb491221323)
+
+Petugas juga memiliki hak akses untuk mengonfirmasi pembayaran denda yang terkait dengan peminjaman tertentu. Ketika seorang anggota datang untuk membayar denda, petugas dapat menggunakan menu ini untuk membantu anggota dalam proses pengembalian buku dan pembayaran denda
+
 ![Screenshot 2023-11-03 081636](https://github.com/sittii/PA-PBO/assets/127497591/6a1bfbb3-e302-4abc-8c46-8feaabe98d0e)
 
-Apabila anggota belum memiliki akun, maka anggota akan diminta untuk membuat akun (registrasi) terlebih dahulu.
+Lalu apabila anggota ingin mengakses aplikasi,  maka anggota harus melakukan pembuatan akun (registrasi) terlebih dahulu.
 
 ![Screenshot 2023-11-03 081649](https://github.com/sittii/PA-PBO/assets/127497591/402c2721-6610-456c-bf01-6c0cc00188a3)
 
@@ -151,7 +175,6 @@ Jika anggota telah melakukan peminjaman buku maka akan menampilkan peminjaman be
 
 Pada tampilan ini menunjukan history peminjaman yang telah dilakukan anggota, dalam proses peminjaman buku ini setiap peminjaman diberikan waktu selama 7 hari sebelum tanggal pengembalian ditetapkan. jika buku dikembalikan melewati batas waktu 7 hari, maka anggota tersebut akan dikenakan denda sesuai dengan kebijakan perpustakaan.
 
-
 ![Screenshot 2023-11-03 081909](https://github.com/sittii/PA-PBO/assets/127497591/4fd6775e-afba-4483-88dc-5029f3389fd1)
 
 Pada tampilan ini menunjukan from pengembalian buku, jika anggota yang ingin mengembalikan buku yang telah dipinjem maka sistem akan langsung memproses pengembalian buku.
@@ -160,23 +183,21 @@ Pada tampilan ini menunjukan from pengembalian buku, jika anggota yang ingin men
 
 Jika menunjukan tampilan ini menandakan bahwa proses pengembalian buku telah berhasil.
 
+![image](https://github.com/sittii/PA-PBO/assets/123925640/e5236d88-c4f9-4802-87ef-8dad516671ee)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/6bda4a27-273d-42b3-9079-e8c797cc679d)
+
+Namun apabila terdapat kasus yang seperti ini, anggota telat melakukan pengembalian buku, maka akan muncul tampilan seperti, maka itu artinyaa anggota diharuskan datang ke perpustakaan secara offline untuk melakukan pembayaran denda secara tunai kepada petugas perpustakaan. Data anggota yang terkena denda akan secara otomatis masuk kedalam database denda, dan hanya petugas yang memiliki akses terhadap data tersebut
+
+Apabila anggota telah melakukan pembayaran secara tunai kepada petugas perpustakaan, maka petugas akan mengkonfimasi pengembalian buku anggota tersebut
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/0a0a3404-5083-45a0-8af7-546d96b10485)
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/17881d03-ca30-458f-a656-4b3817b88814)
+
+Tampilan history anggota saat pengembalian buku dan pembayaran dendanya  telah dikonfirmasi oleh petugas
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/2916d6fb-cdd6-4945-94d2-0fa495dcc296)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Penjelasan Output
