@@ -24,6 +24,18 @@ Sementara itu, Petugas Perpustakaan memiliki peran yang lebih luas dalam manajem
 ![hffffffffffffffffffff](https://github.com/sittii/PA-PBO/assets/123925640/f332d345-3318-41df-9eb8-fef43e921f05)
 
 ## Penjelasan Coding
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/30386da8-f49a-4779-8e40-a3339969a0e2)
+
+Coding ini adalah bagian utama dari program Java yang mengembangkan aplikasi dengan antarmuka pengguna (GUI). Dalam program ini, kelas Formsplash digunakan untuk menampilkan layar pembuka splash screen, dan kelas FormLogin digunakan untuk tampilan login. Ketika program dijalankan, splash screen ditampilkan terlebih dahulu dengan efek loading yang disimulasikan, lalu setelah loading mencapai 100%, splash screen ditutup dan FormLogin ditampilkan untuk masuk ke aplikasi utama. Ini memberikan pengguna pengalaman awal yang menarik sebelum mengakses aplikasi utama.
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/acff83c0-0101-48d6-aaaf-565b71bc111b)
+
+Kode tersebut merupakan bagian dari sebuah aplikasi Java yang digunakan untuk mengelola koneksi dengan database MySQL. Kelas `ConnectionDatabase` ini memiliki metode `openConnection` yang digunakan untuk membuka koneksi ke database dengan menggunakan parameter seperti host, nama database, username, dan password yang telah ditentukan. Kemudian, terdapat metode `closeConnection` yang digunakan untuk menutup semua elemen terkait koneksi, seperti `resultSet`, `statement`, `preparedStatement`, dan `connection`. Jika terjadi kesalahan dalam koneksi database, kelas ini juga memiliki metode `displayErrors` untuk menampilkan pesan kesalahan. Pada metode `main`, sebuah objek dari kelas `ConnectionDatabase` dibuat, koneksi database dibuka, dan kemudian koneksi ditutup. Kode ini akan sangat berguna untuk mengatur koneksi ke database MySQL dalam pengembangan aplikasi Java.
+
+
+![image](https://github.com/sittii/PA-PBO/assets/123925640/ee057771-f00c-448c-a106-d0d89f2fd569)
+
 ![Screenshot 2023-11-03 070509](https://github.com/sittii/PA-PBO/assets/127497591/5ffdb73c-bffb-4aa2-a2ed-52c0a7a9755f)
 Pada kode ini merupakan implementasi kelas dalam Bahasa java untuk mengakses ke database MySQL dengan menggunakan JDBC.
 ConnectionDatabase, memiliki atribut yang digunakan untuk menyimpan informasi koneksi dan objek-objek untuk menjalankan pernyataan SQL. Metode openConnection digunakan untuk membuka koneksi ke database.
