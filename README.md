@@ -8,13 +8,13 @@ Salah satu fitur unik dalam sistem ini adalah penerapan denda otomatis ketika An
 Sementara itu, Petugas Perpustakaan memiliki peran yang lebih luas dalam manajemen buku. Mereka memiliki kemampuan untuk dengan mudah menambahkan buku baru ke dalam koleksi perpustakaan (Create), memperbarui informasi buku yang sudah ada (Update), dan menghapus buku yang sudah tidak tersedia (Delete). Selain itu, mereka juga dapat memantau keterlambatan pengembalian buku oleh anggota dan mengenakan denda sesuai dengan kebijakan perpustakaan (Create)
 
 ## Flowchart
-![fwfixxxxxxxxxxxxxx](https://github.com/sittii/PA-PBO/assets/123925640/ebd6fb25-0595-47c5-9bc1-f4c18062a845)
+![fwfixxxxxxxxxxxxxx](https://github.com/sittii/PA-PBO/assets/123925640/c402c090-8989-487f-bc9b-907820e46682)
 
 ## ERD
-![logicalfixparahh](https://github.com/sittii/PA-PBO/assets/123925640/228402a5-ed3c-4141-a8d1-5e7ecf7e1726)
+![logicalfixparahh](https://github.com/sittii/PA-PBO/assets/123925640/d2e2f712-bc29-4b93-8001-6d0dc0d225f8)
 
 ## Hirarki Kelas
-![hffffffffffffffffffff](https://github.com/sittii/PA-PBO/assets/123925640/9a98d1c7-2dfc-4d95-898e-5e38ecff0ac6)
+![hffffffffffffffffffff](https://github.com/sittii/PA-PBO/assets/123925640/f332d345-3318-41df-9eb8-fef43e921f05)
 
 ## Penjelasan Coding
 
