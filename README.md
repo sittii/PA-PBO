@@ -62,6 +62,52 @@ Pada class denda, kode ini merupakan implementasi class denda yang digunakan unt
 ![Screenshot 2023-11-03 074130](https://github.com/sittii/PA-PBO/assets/127497591/2af81635-4aa9-4bf5-91ad-8366a7f6dd94)
 
 
+##OUTPUT PROGRAM
+![Screenshot 2023-11-03 140751](https://github.com/sittii/PA-PBO/assets/127497591/aac93f52-a959-4eac-995c-ca2dacf27942)
+Pada tampilan awal Perpustakaan akan menampilkan Formsplash secara bertahap dari 0 hingga 100% untuk memberikan kesan loading.
+
+![Screenshot 2023-11-03 140804](https://github.com/sittii/PA-PBO/assets/127497591/a2edac70-f114-4588-bdfd-98639cb46f20)
+Pada tampilan ini adalah tampilan login dari perpustakaan, petugas dan anggota akan dapat mengakses.
+
+![Screenshot 2023-11-03 081636](https://github.com/sittii/PA-PBO/assets/127497591/6a1bfbb3-e302-4abc-8c46-8feaabe98d0e)
+Apabila anggota belum memiliki akun, maka anggota akan diminta untuk membuat akun (registrasi) terlebih dahulu.
+
+![Screenshot 2023-11-03 081649](https://github.com/sittii/PA-PBO/assets/127497591/402c2721-6610-456c-bf01-6c0cc00188a3)
+Jika anggota telah membuat akun maka akan menampilkan Berhasil membuat akun
+
+![Screenshot 2023-11-03 081740](https://github.com/sittii/PA-PBO/assets/127497591/00e54801-59b4-4572-bf76-d9ac73bfbb67)
+Untuk masuk ke perpustakaan, anggota harus memasukan ussername dan password yang telah di buat tadi.
+
+![Screenshot 2023-11-03 081753](https://github.com/sittii/PA-PBO/assets/127497591/46eba78a-4c57-4f4e-8d0a-2a42ab056223)
+Pada tampilan ini anggota sudah masuk ke sistem perpustakaan dan bisa meminjam buku yang diinginkan.
+
+![Screenshot 2023-11-03 081828](https://github.com/sittii/PA-PBO/assets/127497591/7d463d02-db0e-4f07-b2dd-2823920b4881)
+ini adalah tampilan dari from peminjaman buku dengan menampilkan informasi buku-buku yang tersedia, anggota langsung bisa memilih buku mana yang ingin dipinjam.
+
+![Screenshot 2023-11-03 081836](https://github.com/sittii/PA-PBO/assets/127497591/b8c8f10b-7c6d-48e4-a36d-43ea504a3d33)
+Jika anggota telah melakukan peminjaman buku maka akan menampilkan peminjaman berhasil.
+
+![Screenshot 2023-11-03 081852](https://github.com/sittii/PA-PBO/assets/127497591/46b7fe30-e301-4e45-a416-e157785ae13e)
+Pada tampilan ini menunjukan history peminjaman yang telah dilakukan anggota, dalam proses peminjaman buku ini setiap peminjaman diberikan waktu selama 7 hari sebelum tanggal pengembalian ditetapkan. jika buku dikembalikan melewati batas waktu 7 hari, maka anggota tersebut akan dikenakan denda sesuai dengan kebijakan perpustakaan.
+
+![Screenshot 2023-11-03 081909](https://github.com/sittii/PA-PBO/assets/127497591/a6f40b61-1448-497a-9f08-341c61aa3a02Pada 
+Pada tampilan ini menunjukan from pengembalian buku, jika anggota yang ingin mengembalikan buku yang telah dipinjem maka sistem akan langsung memproses pengembalian buku.
+
+![Screenshot 2023-11-03 081947](https://github.com/sittii/PA-PBO/assets/127497591/2d4ccc8b-3d36-48e5-9fe7-32f5b47e6e93)
+Jika menunjukan tampilan ini menandakan bahwa proses pengembalian buku telah berhasil.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
